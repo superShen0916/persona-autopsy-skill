@@ -1,140 +1,271 @@
 # Extraction Framework
 
-Use this framework to dissect a persona into observable, reusable layers.
+用这套框架去拆一个人格时，不要只停在“他说话很有魅力”。
 
-## 1. Expression DNA
+你要一路追问到：
 
-Ask:
+**这套表达到底靠什么改现场、改判断、改动作。**
 
-- What phrases recur?
-- What sentence length dominates?
-- Is the voice clipped, flowing, preachy, teasing, hostile, bureaucratic, intimate?
-- Does the persona speak in claims, questions, commands, or insinuations?
-- What emotional temperature is the default?
+## 1. 一句话判词
 
-Capture:
+先给一个能抓住发动机的 verdict。
+
+标准：
+
+- 不是夸奖
+- 不是道德定性
+- 不是重复梗
+- 要能指出这套人格最值钱的 leverage
+
+例子：
+
+- `145%不是数字，是开价`
+- `卖的不是套，是把尴尬先拿走`
+- `不是毒舌，是先替一个家庭算损益表`
+
+## 2. Hook Surface
+
+先看最容易被记住的表层。
+
+问：
+
+- 他一开口最容易被记住的是什么
+- 是数字、标签、狠话、半句留白、双关、伪共识还是故事开头
+- 他靠什么让一句话一眼有“就是他”的辨识度
+
+抓：
 
 - signature phrases
-- repeated sentence shapes
-- favorite contrast patterns
-- pacing and rhythm
-- emotional surface
+- recurring openers
+- memory hooks
+- bait structures
 
-## 2. Narrative Routines
+## 3. Entry Stance
 
-A persona is often remembered less for “beliefs” than for recurring story shapes.
+再看他是怎么进场的。
 
-Ask:
+问：
 
-- Do they frame themselves as victim, prophet, expert, insider, underdog, rescuer, bully, or witness?
-- Do they always create villains?
-- Do they make everything personal, historical, moral, or economic?
-- What kind of arc do they repeat when explaining events?
+- 他把自己摆成什么角色
+- 是老板、裁判、过来人、情人、军师、懂门道的人，还是戏剧导演
+- 他一开口先给信息，还是先给位置感
 
-Capture:
+抓：
 
-- default self-position
-- default enemy construction
-- default stakes escalation
-- how they make ordinary events feel charged
+- 默认自我站位
+- 进场姿态
+- authority source
+- intimacy source
 
-## 3. Judgment Frames
+## 4. Scene Control
 
-This is the most important layer. It explains how the persona decides what matters.
+真正厉害的人不是会说，是会改现场。
 
-Ask:
+问：
 
-- What do they optimize for?
-- What counts as proof to them?
-- What are they willing to ignore?
-- What do they treat as non-negotiable?
-- When under ambiguity, what heuristic do they fall back to?
+- 他怎么重新定义问题
+- 他怎么让别人被迫在他的地板上回应
+- 他怎么把复杂问题拖成对自己有利的比赛
 
-Common frames:
+抓：
 
-- attention first
-- loyalty first
-- aesthetics first
-- efficiency first
-- moral purity first
-- hierarchy first
-- realism first
+- frame seizure
+- definition shift
+- topic compression
+- battlefield relocation
 
-Capture:
+## 5. Expression DNA
+
+这里拆句子的骨架。
+
+问：
+
+- 句子长还是短
+- 是先 verdict 后理由，还是先铺情绪再收刀
+- 爱用命令、判断、问题、反问、暗示还是对比
+- 高频词和禁用词分别是什么
+
+抓：
+
+- sentence shape
+- pacing
+- repeated contrasts
+- temperature of language
+- signature word choices
+
+## 6. Narrative Engines
+
+每个强人格都在重复几条母题。
+
+问：
+
+- 他总把事件讲成什么故事
+- 谁是受害者，谁是赢家，谁是坏人
+- 他更爱讲拯救、复仇、体面、现实、天赋、底层逆袭，还是高端身份
+
+抓：
+
+- recurring story arcs
+- enemy construction
+- stakes escalation
+- self-myth
+
+## 7. Judgment / Trade Logic
+
+这是最值钱的一层。
+
+问：
+
+- 他嘴上说的和实际在优化的是一回事吗
+- 他真正拿什么当尺子
+- 现金流、注意力、效率、控制权、 loyalty、面子、情绪，哪个才是底层 currency
+- 他在做什么交易
+
+抓：
 
 - explicit values
-- hidden practical values
-- fast heuristics
-- blind spots created by those heuristics
+- hidden currencies
+- default heuristics
+- trade logic
+- blind spots
 
-## 4. Manipulation And Defense Moves
+## 8. Audience Split
 
-Many strong personas are memorable because of how they handle pressure.
+很多人格的厉害，不是所有人听到同一句，而是不同人听到不同信号。
 
-Ask:
+问：
 
-- How do they dodge direct criticism?
-- How do they reverse blame?
-- How do they signal authority?
-- How do they create intimacy or dependency?
-- How do they devalue rivals?
+- 粉丝、路人、媒体、对手、平台、合作方各自听见了什么
+- 哪一层是给铁粉的，哪一层是给围观群众的，哪一层是给真正利益相关者的
 
-Look for:
+抓：
 
+- audience segmentation
+- message layering
+- dual signaling
+- platform-aware wording
+
+## 9. Emotion Thermostat
+
+看他怎么调温。
+
+问：
+
+- 他让人更热还是更冷
+- 他制造的是羞耻、优越、怒气、暧昧、安全感、 urgency，还是体面
+- 他情绪是持续高热，还是冷热切换
+
+抓：
+
+- emotional baseline
+- escalation pattern
+- release valve
+- temperature contrast
+
+## 10. Pressure / Conversion Moves
+
+这里是“让人动起来”的地方。
+
+问：
+
+- 他怎么让别人转发、下单、投票、点头、闭嘴
+- 他是靠高锚点、损失厌恶、身份诱导、权威嫁接、关系缓冲还是默契感
+- 他真正的成交 trigger 是什么
+
+抓：
+
+- trigger
+- move
+- target audience
+- intended action
+- expected payoff
+
+## 11. Defense / Exit Moves
+
+能上桌不算本事，会退才算。
+
+问：
+
+- 出错时他怎么甩锅
+- 回撤时他怎么改写成自己赢了
+- 被追问时他怎么换战场
+- 他怎么留退场口
+
+抓：
+
+- blame shifting
 - reframing
-- sarcasm
-- moral inversion
-- selective vagueness
-- certainty theater
-- selective humility
-- “just asking questions”
-- weaponized softness
+- ambiguity shield
+- symbolic win packaging
+- exit choreography
 
-Capture the trigger, the move, and the intended effect.
+## 12. Weapon Library
 
-## 5. Cracks, Contradictions, Failure Modes
+把武器单独列出来，方便后面模仿指南调用。
 
-Do not make the persona too clean. Real persuasive personas are held together by tension.
+武器可能包括：
 
-Ask:
+- 极端数字
+- 标签命名
+- 半句留白
+- 双关
+- 狠话开场
+- 伪共识句式
+- 自黑
+- 案例画面
+- 假装随口一说
 
-- Where does the persona contradict itself?
-- What situations make the style collapse?
-- When do they sound forced or defensive?
-- What happens when the persona leaves its home turf?
-- What kind of audience exposes the seams?
+每件武器要尽量写清：
 
-Capture:
+- 长什么样
+- 什么时候出手
+- 打的是谁
+- 打完想换来什么
 
-- repeated contradictions
-- visible pressure points
+## 13. Cracks, Contradictions, Failure Modes
+
+最后必须拆他的弱点。
+
+问：
+
+- 这套风格在哪些平台会变假
+- 哪些 audience 会让他失灵
+- 哪些招一旦高频复用就会折旧
+- 他最大的自我矛盾是什么
+
+抓：
+
 - overused tricks
-- when the style stops working
+- environment mismatch
+- audience mismatch
+- contradiction under pressure
+- collapse conditions
 
-## 6. Stable Core vs Situational Mask
+## 14. Stable Core vs Situational Mask
 
-Separate the layers:
+把这些层再做一次分类：
 
-- stable core: repeated across long time windows and contexts
-- situational mask: optimized for a specific audience or format
-- spike behavior: one-off moments that are vivid but not central
+- `stable core`
+- `situational mask`
+- `spike behavior`
 
-If you cannot separate these, lower confidence.
+如果做不到，就降低置信度。
 
-## Reporting Standard
+## 15. Reporting Discipline
 
-Every strong claim should be backed by one of these:
+强结论至少要满足其中一种：
 
 - repeated direct evidence
 - long-form direct material
 - multi-source convergence
 
-Avoid:
+避免：
 
-- single-quote personality theories
-- armchair clinical claims
-- vague labels like “charismatic” without mechanism
+- 单条金句推导完整人格
+- 把 meme layer 当核心人格
+- 空洞标签，比如“有魅力”“很会表达”
+- 把风格像当成思维像
 
-The final question is always:
+收尾时永远追问一句：
 
-**What does this persona repeatedly do that another smart speaker would not do the same way?**
+**这个人格到底反复做了什么，是另一个聪明人也不会用同样方式做的？**

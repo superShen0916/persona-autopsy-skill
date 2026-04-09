@@ -1,132 +1,193 @@
 ---
 name: persona-autopsy-skill
-description: Use this skill when the user wants to dissect a public persona, brand voice, or user-provided semi-public chat style instead of generating a new persona skill. It extracts expression DNA, narrative routines, judgment frames, manipulative or defensive moves, cracks, and imitation guidance, and can optionally enter a temporary immersive roleplay after the analysis. Trigger on requests like 拆一下这个人设, 分析这个账号怎么说话, 这个人的套路是什么, 给我这个人格的模仿指南, or 让我和这个人设对话.
+description: Use this skill when the user wants to dissect a public persona, brand voice, creator style, live-commerce style, or user-provided semi-public chat persona into hook surface, scene control, narrative engines, judgment / trade logic, audience split, emotional temperature, pressure or conversion moves, defense moves, weapon library, failure modes, and imitation guidance. Trigger on requests like 拆一下这个人设, 分析这个账号怎么说话, 这个人的套路是什么, 给我这个人格的模仿指南, 分析他的成交结构, or 让我和这个人设对话.
 license: MIT
 ---
 
-# Persona Autopsy
+# 人设拆解所
 
-## Overview
+## 这不是在干什么
 
-This skill is a **persona analysis lab**. It studies how a persona works, why it sticks, where it breaks, and what parts are safe or unsafe to imitate.
+先划掉几个常见误会：
 
-This skill is **not** a persona generator. It must not generate a new reusable `SKILL.md`, package a new persona asset, or pretend it has built a durable persona system.
+- 不是性格测试
+- 不是名言摘抄
+- 不是“学他说话”的低仿教程
+- 不是生成一个新的 `SKILL.md`
+- 不是宣称自己已经把一个真人“复活”
 
-## Default Inputs
+这个 skill 真正要回答的是：
 
-Use this skill for:
+- 他怎么进场
+- 他怎么夺场
+- 他怎么给不同 audience 不同的信号
+- 他怎么把一句话换成信任、权威、欲望、购买、顺从
+- 他失手时怎么退
 
-- Public figures
-- Brand, media, or creator accounts
-- Semi-public materials the user actively provides, such as chat excerpts, screenshots, voice transcripts, or group chat fragments
+## 默认适用对象
 
-Do not assume private material exists. Use only what the user gives you plus public material when appropriate.
+优先用于：
 
-## Trigger Phrases
+- 公众人物
+- 品牌 / 官号 / 媒体号
+- 创作者 / 主播 / 销售型人格
+- 用户主动提供的半公开聊天人格、截图、群聊片段、语音转录
 
-Strong triggers include:
+如果对象风格不稳定，要明确拆成：
+
+- `stable core`
+- `situational mask`
+- `spike behavior`
+
+## 强触发词
+
+这些请求出现时，默认触发：
 
 - “拆一下这个人设”
 - “分析这个账号怎么说话”
 - “这个人的套路是什么”
 - “给我这个人格的模仿指南”
+- “分析他的成交结构”
+- “他怎么总能让别人买单 / 转发 / 跟着走”
 - “让我和这个人设对话”
 
-## Workflow
+## 工作流
 
-### Step 1: Identify the Object
+### Step 1: 先认对象，不要急着下判断
 
-Classify the target before analyzing:
+先判断你在拆哪一种东西：
 
-- Public figure
-- Brand or official account
-- Creator or influencer account
-- User-provided semi-public chat persona
-- Mixed or unstable persona
+- public figure
+- brand account
+- creator / influencer
+- sales persona
+- semi-public chat persona
+- mixed persona
 
-If the target shifts styles across contexts, explicitly separate:
+如果他在不同场景里像两个人，必须把：
 
-- stable core
-- situational mask
-- performance layer
+- 核心人格
+- 场景化表演层
+- 单次 spike 行为
 
-### Step 2: Grade the Sources
+拆开再说。
 
-Read [`references/source-grading.md`](./references/source-grading.md) before making confident claims.
+### Step 2: 先看证据，再决定刀能切多深
 
-Rules:
+先读 [`references/source-grading.md`](./references/source-grading.md)。
 
-- Prefer direct material over commentary
-- Prefer repeated patterns over single flashy quotes
-- Prefer long-form material over isolated one-liners
-- Mark uncertainty when evidence is thin or conflicting
+规则：
 
-If the evidence is weak, downgrade the result to a **weak autopsy** instead of forcing a hard conclusion.
+- 直接材料优先于二手评论
+- 重复模式优先于单次高光
+- 长材料优先于一条爆梗
+- 不能把 meme layer 直接当核心人格
 
-### Step 3: Produce the Autopsy Report
+如果证据薄，就降级成 `weak autopsy`。  
+不要用一条狠话去脑补一个完整人格。
 
-Use [`references/extraction-framework.md`](./references/extraction-framework.md) and output these sections in order:
+### Step 3: Autopsy Report 至少切 12 层
 
-1. `Autopsy Report`
-2. `Imitation Guide`
+先读 [`references/extraction-framework.md`](./references/extraction-framework.md)。
 
-The `Autopsy Report` must cover:
+默认输出这些层：
 
-- `Expression DNA`
-- `Narrative Routines`
-- `Judgment Frames`
-- `Manipulation / Defense Moves`
-- `Cracks, Contradictions, Failure Modes`
+1. `一句话判词`
+2. `Hook Surface`
+3. `Entry Stance`
+4. `Scene Control`
+5. `Expression DNA`
+6. `Narrative Engines`
+7. `Judgment / Trade Logic`
+8. `Audience Split`
+9. `Emotion Thermostat`
+10. `Pressure / Conversion Moves`
+11. `Defense / Exit Moves`
+12. `Weapon Library`
+13. `Cracks, Contradictions, Failure Modes`
 
-Make the report concrete. Do not write vague personality adjectives without evidence.
+写法要求：
 
-### Step 4: Produce the Imitation Guide
+- 讲机制，不只讲形容词
+- 讲“怎么运作”，不只讲“给人感觉”
+- 每一层尽量给出具体 pattern，而不是抽象夸奖
+- 结论要能被后面的模仿指南调用
 
-Read [`references/imitation-playbook.md`](./references/imitation-playbook.md).
+### Step 4: 模仿指南不是 cosplay 指南
 
-The `Imitation Guide` must include:
+先读 [`references/imitation-playbook.md`](./references/imitation-playbook.md)。
 
-- what to imitate
-- what not to imitate
-- sentence rhythm
-- preferred framing
-- emotional posture
-- forbidden moves
+`Imitation Guide` 至少要包含：
 
-This is a **guide**, not a generated persona package.
+- `High-Yield Moves`
+- `What To Copy`
+- `What To Avoid`
+- `Rhythm, Heat, Tells`
+- `Cheap Fake Version`
+- `Safe Use Cases`
 
-### Step 5: Optional Immersive Dialogue Mode
+目标不是“像”，而是“借到高价值结构，避开低仿和翻车”。
 
-If and only if the user explicitly asks to talk to the persona, enter **Immersive Dialogue Mode**.
+### Step 5: 只有用户明确要求时才进入沉浸对话
 
-Rules:
+如果用户明确说：
+
+- “让我和这个人设对话”
+- “切到他的语气和我说”
+- “直接临时扮演一下”
+
+才进入 `Immersive Dialogue Mode`。
+
+规则：
 
 - only do temporary roleplay
 - 只做临时扮演，不做持久人格封装
-- do not export, save, or package the roleplay as a skill
-- do not announce that a new persona system has been created
-- stay close to the autopsy findings
-- if evidence is weak, reduce confidence and keep the performance simpler
+- 不导出、不保存、不打包成新 skill
+- 不说“已经生成了一个真人替身”
+- 尽量贴着解剖结果演，不要泛化成普通角色扮演
+- 证据弱时，表演也要降置信度
 
-If the user asks for full immersion, respond in character without meta commentary unless safety, uncertainty, or source weakness makes that necessary.
+## 输出协议
 
-## Output Contract
-
-Always use this structure unless the user explicitly asks for something narrower:
+除非用户明确要更窄的回答，否则默认用这个结构：
 
 ```markdown
 ## Autopsy Report
 
+### 一句话判词
+...
+
+### Hook Surface
+...
+
+### Entry Stance
+...
+
+### Scene Control
+...
+
 ### Expression DNA
 ...
 
-### Narrative Routines
+### Narrative Engines
 ...
 
-### Judgment Frames
+### Judgment / Trade Logic
 ...
 
-### Manipulation / Defense Moves
+### Audience Split
+...
+
+### Emotion Thermostat
+...
+
+### Pressure / Conversion Moves
+...
+
+### Defense / Exit Moves
+...
+
+### Weapon Library
 ...
 
 ### Cracks, Contradictions, Failure Modes
@@ -134,17 +195,26 @@ Always use this structure unless the user explicitly asks for something narrower
 
 ## Imitation Guide
 
+### High-Yield Moves
+...
+
 ### What To Copy
 ...
 
 ### What To Avoid
 ...
 
-### Rhythm, Framing, Tells
+### Rhythm, Heat, Tells
+...
+
+### Cheap Fake Version
+...
+
+### Safe Use Cases
 ...
 ```
 
-When evidence is insufficient, add:
+证据不足时，必须补：
 
 ```markdown
 ### Confidence Notes
@@ -153,38 +223,35 @@ When evidence is insufficient, add:
 - missing evidence:
 ```
 
-## Weak Autopsy Fallback
+## Weak Autopsy 何时启用
 
-Use a weak autopsy when:
+这些情况直接切弱档：
 
-- the user provides too little material
-- the target has no stable style
-- the evidence conflicts heavily
-- the source quality is too low
+- 材料太少
+- 风格明显不稳定
+- 只有热梗，没有长材料
+- 证据互相打架，无法判断是时代变化还是自我矛盾
 
-In a weak autopsy:
+弱拆解的规则：
 
-- keep claims narrow
-- avoid psychoanalyzing motive
-- do not produce high-confidence imitation instructions
-- do not enter strong immersive performance by default
+- 只做窄结论
+- 不心理分析动机
+- 不给高置信模仿建议
+- 默认不做强沉浸扮演
 
-## Hard Boundaries
+## 硬边界
 
 - Never generate a new reusable persona skill
 - Never output a fresh `SKILL.md`
-- Never claim to reproduce the real person
-- Never encourage the user to submit private data they do not control
-- Never store or summarize sensitive raw archives beyond what the user asked for
-- Never confuse stage persona with full personhood
+- Never claim you reproduced the real person
+- Never encourage users to provide private material they do not control
+- Never let meme caricature outrank direct evidence
+- Never把舞台人格误写成完整人格
 
-## Notes On Tone
+## 口气要求
 
-This skill should feel like a cold lab report, not fan fiction. The point is to **see the machinery**:
+这套 skill 的气质应该像一份**冷硬、清醒、会拆 machinery 的报告**。
 
-- what works
-- what manipulates
-- what persuades
-- what cracks
-
-If the user later asks for immersion, the roleplay should still be grounded in the report rather than generic persona cosplay.
+它可以锋利，但不能空狠。
+它可以有梗，但不能只剩梗。
+它要像在拆一台发动机，而不是在写饭圈鉴赏。

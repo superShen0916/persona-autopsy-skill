@@ -1,57 +1,99 @@
 # Persona Autopsy
 
-> *Not what they said. How they hooked you.*
+> *Reverse-engineer how language becomes attention, power, desire, price, and conversion.*
 
-`persona-autopsy-skill` is built to expose three things inside a voice:
+[中文版](./README.md)
 
-- the hook
-- the price
-- the damage
+`persona-autopsy-skill` is not a quote collector and not a personality quiz.
 
-If you only remember three lines from this repo, remember these:
+It is a lab for reverse-engineering how a public persona, brand voice, creator style, or sales identity turns language into:
 
-- `145% is not a number. It's an opening bid.`
-- `Durex is not selling condoms. It's selling the second where saying it stops being awkward.`
-- `“No family money? Stay away from finance” is not cruelty. It's a filter.`
+- attention
+- authority
+- pressure
+- desire
+- conversion
+- exit power
 
-Give it a public figure, brand, creator, or chat persona.  
-It extracts the part that actually moves people.
+Give it a public figure, a brand account, a creator, a live-commerce seller, or semi-public material you directly provide.
 
-What you get:
+It will extract:
 
-- `Autopsy Report`
-  - expression DNA, narrative routines, judgment frames, manipulative and defensive moves, cracks
-- `Imitation Guide`
-  - what to copy, what not to copy, rhythm, framing, emotional posture
-- `Immersive Dialogue Mode`
-  - one optional temporary roleplay after the analysis
+- how they enter the room
+- how they seize the frame
+- how they split audiences
+- how they turn language into trust, fear, desire, purchase, or alignment
+- how they retreat without looking like they lost
+- what parts are safe to borrow and what parts collapse into cheap imitation
 
-Typical targets:
+## What You Get
 
-- public figures
-- brand / official / creator accounts
-- user-provided semi-public chat fragments
+### `Autopsy Report`
 
-This repository is Chinese-first. See the full Chinese version in [README.md](./README.md).
+A full breakdown of the persona machinery, including:
 
-## Examples
+- one-line verdict
+- hook surface
+- entry stance
+- scene control
+- expression DNA
+- narrative engines
+- judgment / trade logic
+- audience split
+- emotion thermostat
+- pressure / conversion moves
+- defense / exit moves
+- weapon library
+- cracks and failure modes
 
-- [Public figure example](./examples/public-figure-autopsy.md)
-  - Trump as deal logic, extreme anchoring, and public victory theater
-- [Brand account example](./examples/brand-account-autopsy.md)
-  - Durex as timing, innuendo, and making intimacy feel socially fluent
-- [Creator example](./examples/creator-autopsy.md)
-  - Zhang Xuefeng as harsh realism, family ROI logic, and anti-fantasy filtering
+### `Imitation Guide`
 
-## Hard Boundaries
+Not catchphrase cosplay.  
+A practical guide to:
 
-- do not generate a new `SKILL.md`
-- do not package a durable persona asset
-- do not invent a full personality when evidence is thin
-- do not encourage uncontrolled private data collection
+- what to borrow
+- what not to borrow
+- how to open and close sentences
+- how hot the emotion should run
+- where cheap imitation starts
+
+### `Immersive Dialogue Mode`
+
+Optional temporary roleplay after the analysis:
+
+- temporary only
+- no exported persona package
+- no claim of “reviving” a real person
+
+## Featured Long Cases
+
+- [Trump](./examples/public-figure-autopsy.md)
+  - `145% is not a number. It is an opening bid.`
+- [Durex](./examples/brand-account-autopsy.md)
+  - `It does not sell explicitness. It removes awkwardness first.`
+- [Zhang Xuefeng](./examples/creator-autopsy.md)
+  - `He is not selling cruelty. He is pricing the family downside out loud.`
+
+## Rapid Cuts
+
+See [rapid-cuts.md](./examples/rapid-cuts.md) for shorter breakdowns of:
+
+- Li Jiaqi
+- Luo Yonghao
+- Elon Musk
+- Luo Xiang
+- Apple launch voice
+- Mi Meng
 
 ## Install
 
 ```bash
 npx skills add superShen0916/persona-autopsy-skill
 ```
+
+## Boundaries
+
+- no private data the user does not control
+- no hard conclusions from weak evidence
+- temporary dialogue is not a durable persona asset
+- no direct export of a new persona skill package

@@ -1,95 +1,134 @@
 # Imitation Playbook
 
-This playbook turns an autopsy into a controlled imitation guide without creating a new persona skill.
+这份 playbook 的目标不是“像本人”，而是：
 
-## Goal
+**借到高价值结构，避开低仿和翻车。**
 
-Help the user borrow:
+## 总原则
 
-- the visible surface
-- the useful framing
-- the rhythm
-- the pressure tactics
+模仿时，优先借：
 
-without confusing imitation with faithful reconstruction.
+- 进场方式
+- 判断框架
+- 情绪热度
+- 施压和成交动作
+- 退场设计
 
-## Required Sections
+不要优先借：
 
-### 1. What To Copy
+- 孤立口头禅
+- 单次 viral 片段
+- 只在一个平台好用的夸张动作
 
-Only include features that are:
+## 1. High-Yield Moves
 
-- stable across multiple examples
-- easy to observe
-- safe to abstract
+先列最值得借的 3 到 5 招。
 
-Examples:
+标准：
 
-- short declarative bursts
-- constant enemy framing
-- warm but evasive reassurance
-- premium brand shorthand
-- bureaucratic distancing language
+- 稳定出现
+- 跨场景可迁移
+- 一学就能提高辨识度或判断力
 
-### 2. What Not To Copy
+例子：
 
-List the parts that are:
+- 先下 verdict，再给理由
+- 先写关系 tension，再让产品出现
+- 先把梦想翻译成成本和后果
+- 先报高锚点，再逼对手围着你的数字谈
 
-- ethically bad
-- too tied to personal biography
-- unstable or inconsistent
-- likely to break outside the original context
+## 2. What To Copy
 
-Examples:
+这里写可以安全抽象的部分。
 
-- private jokes that only make sense in one group
-- manipulative shame moves
-- unsafe insults
-- hyper-specific trauma framing
+优先包括：
 
-### 3. Rhythm, Framing, Tells
+- 句子节奏
+- 开场动作
+- framing 方法
+- 情绪温度
+- 默认 stance
 
-Give practical style guidance:
+最好能具体到：
 
-- average sentence length
-- how they open
-- how they escalate
-- how they soften or dodge
-- what kinds of words they overuse
-- what kinds of words they never use
+- 平均句长
+- 常见 opening
+- 解释顺序
+- 重复词类型
 
-### 4. Performance Limits
+## 3. What To Avoid
 
-Explain where the imitation will fail:
+这里写高风险、低收益、容易廉价化的部分。
 
-- weak evidence
-- missing long-form material
-- style only works in one platform
-- contradictions in the source
+常见内容：
 
-## For Temporary Dialogue Mode
+- biography only 的私货
+- 明显伤害性的羞辱动作
+- 过于平台化的招数
+- 只有本人有筹码时才成立的姿态
+- 单次历史情境才能成立的口号
 
-When the user asks to talk to the persona:
+## 4. Rhythm, Heat, Tells
 
-- stay inside the extracted rhythm
+把真正像的地方拆细。
+
+至少说明：
+
+- 先结论还是先铺垫
+- 句子是短爆还是绕行
+- 情绪是拍桌、坏笑、冷静、暧昧、教训、安抚还是戏剧化
+- 哪些词会反复出现
+- 哪些词绝不会出现
+
+## 5. Cheap Fake Version
+
+这一节必须写。
+
+告诉用户：
+
+- 最常见的低仿长什么样
+- 为什么那样看着像，实际上很廉价
+- 一旦只学表面，会怎样翻车
+
+例子：
+
+- 学特朗普只学 insult，不学交易逻辑
+- 学杜蕾斯只学黄梗，不学分寸和留白
+- 学张雪峰只学狠话，不学 ROI 计算和替代路径
+
+## 6. Safe Use Cases
+
+把模仿使用范围说清楚。
+
+例如：
+
+- 适合拿去做谈判 framing
+- 适合写品牌文案
+- 适合做招生或职业建议表达
+- 不适合做需要高度事实精度的政策说明
+- 不适合做需要长期信任维护的敏感沟通
+
+## 7. For Temporary Dialogue Mode
+
+如果用户要求直接对话：
+
+- stay inside the extracted stance
 - prefer behavior over catchphrases
-- keep the performance light if evidence is thin
-- do not invent rich inner lore
-- do not pretend the persona has been “installed”
+- let the persona think through its own trade logic
+- 弱证据时收着演，不要硬装神似
+- 不要制造一套丰富私设
+- 不要伪装成“已经安装了一个真人”
 
 ## Red Flags
 
-Do not overfit to:
+看到这些情况要立刻降置信度：
 
-- one iconic quote
-- one viral clip
-- one scandal
-- one era if the persona has clearly changed over time
+- 只剩一个 famous quote
+- 只看过一个热点事件
+- 只在一种平台上成立
+- 资料明显跨时代打架
+- 用户想要的是崇拜文或抹黑文，不是拆解
 
-Do not produce imitation guidance that reads like:
+最终目标是：
 
-- worship
-- smear fiction
-- unsupported diagnosis
-
-The guide should help the user **borrow a method**, not cosplay a hallucination.
+**让用户借到一种 method，而不是 cosplay 一个幻觉。**

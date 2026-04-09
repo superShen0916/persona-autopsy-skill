@@ -1,109 +1,115 @@
 # Source Grading
 
-Use this grading system before making strong persona claims.
+在做任何强结论之前，先判断你手上的材料到底有多硬。
 
 ## Grade A
 
-Direct, first-hand, durable evidence.
+直接、一手、可持续验证的材料。
 
-Examples:
+例子：
 
-- books, newsletters, essays, long interviews
-- verified public posts from the target
-- speeches, transcripts, long-form videos
-- user-provided full chat excerpts or transcripts they directly control
+- 长访谈、长演讲、长视频转录
+- 本人公开账号的系统性表达
+- 书、长文、newsletter、连续输出
+- 用户直接控制并主动提供的完整聊天节选或转录
 
-Use Grade A for:
+适合支撑：
 
-- stable style claims
-- judgment frame claims
-- high-confidence imitation guidance
+- 稳定人格结构
+- 判断框架
+- 高置信模仿建议
 
 ## Grade B
 
-Direct but partial or context-limited evidence.
+直接，但上下文有限。
 
-Examples:
+例子：
 
-- short interview clips
-- public screenshots from verified sources
-- excerpted chat fragments
-- campaign ads, official promo materials
+- 短视频切片
+- 短采访
+- 广告物料、品牌 campaign 文案
+- 局部聊天片段
 
-Use Grade B for:
+适合支撑：
 
-- expression signals
-- recurring surface patterns
-- tentative behavior claims
+- 表达信号
+- 钩子层
+- 初步行为模式
 
 ## Grade C
 
-Curated secondary coverage.
+二手但相对可信的整理和分析。
 
-Examples:
+例子：
 
-- well-sourced profiles
-- recap articles
-- commentary that quotes the target accurately
+- 有引文来源的媒体综述
+- 带材料引用的分析文章
+- 整理稿、复盘稿、人物 profile
 
-Use Grade C to support:
+适合支撑：
 
-- timelines
-- context
-- contradiction mapping
+- 时间线
+- 背景补充
+- 矛盾点对照
 
-Do not let Grade C outrank Grade A.
+不能让 Grade C 压过 Grade A。
 
 ## Grade D
 
-User-provided semi-public or noisy material.
+用户主动提供的半公开、缺上下文或较噪的材料。
 
-Examples:
+例子：
 
-- screenshots with missing context
-- partial group chat images
-- reposted voice transcriptions
-- lightly anonymized notes about how someone talks
+- 截图
+- 群聊局部
+- 语音转录片段
+- 匿名化的聊天整理
 
-Use Grade D with caution:
+适合：
 
-- good for weak autopsy support
-- not enough for hard inner-motive claims
+- 弱拆解
+- 表层表达模式
+- 情绪习惯
+
+不适合：
+
+- 高置信 inner motive 推断
+- 过深的人格定性
 
 ## Grade E
 
-Weak, memetic, or distorted evidence.
+梗图层、失真层、公共 caricature。
 
-Examples:
+例子：
 
-- reposted quotes with no source
-- fan edits
-- “everybody knows” summaries
-- ragebait threads
+- 无来源 quote 图
+- 二次创作梗图
+- “大家都知道他就是这样”的转述
+- ragebait 总结
 
-Use Grade E only to note:
+Grade E 只能用来标注：
 
-- public perception
-- meme layer
-- external caricature
+- public meme layer
+- 外界对这个人格的 caricature
+- 流行误读
 
-Never use Grade E alone to define the core persona.
+绝不能单独拿 Grade E 定义核心人格。
 
-## Conflict Rules
+## 冲突处理规则
 
-When sources conflict:
+材料互相打架时：
 
-1. prefer long-form over clipped fragments
-2. prefer repeated evidence over vivid one-offs
-3. separate era change from contradiction
-4. downgrade confidence if you cannot reconcile the conflict
+1. 长材料优先于短切片
+2. 重复模式优先于单次高光
+3. 先区分时代变化，再区分人格矛盾
+4. 分不清时，降低置信度，不要硬判
 
-## Minimum Evidence Threshold
+## 强拆解最低门槛
 
-To output a strong autopsy:
+想输出强拆解，至少要有：
 
-- at least 2 strong signals from Grade A or B
-- at least 1 repeated pattern
-- at least 1 non-surface layer beyond catchphrases
+- 2 个来自 Grade A 或 B 的强信号
+- 1 个重复出现的 pattern
+- 1 层超出口头禅的深层结构
 
-If you do not have that, switch to a weak autopsy.
+达不到，就切 `weak autopsy`。
