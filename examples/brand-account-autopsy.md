@@ -1,63 +1,86 @@
-# Brand Account Example
+# 品牌账号案例：Duolingo
 
-## Target
+## 场景问题
 
-Duolingo social account, using public short-form posts, reply style, and meme-forward brand voice.
+为什么一个天天催你学英语的品牌账号，不但不惹人烦，反而让人等着看它今天又怎么发疯？
 
-## Autopsy Report
+## 目标
 
-### Expression DNA
+Duolingo social account。材料范围为公开短帖、评论区回复、短视频文案与 mascot 导向的内容表达。
 
-- Fast, blunt, low-context joke delivery
-- Pretends the mascot has agency, emotions, and grudges
-- Uses platform-native slang without sounding fully human
-- Chooses highly legible internet formats over polished brand prose
+## 观察入口
 
-### Narrative Routines
+- 品牌不把自己当品牌，而是当角色
+- 它不像在传达信息，更像在继续演一出固定宇宙里的戏
+- 产品提醒很少正面出现，通常藏在角色行为里
+- “疯”是表面，稳定的人设控制才是底层
 
-- Brand becomes a chaotic character, not a company
-- Every post implies the mascot is watching, wanting, or threatening
-- The joke often comes from collapsing product reminder into absurd social pressure
-- The account acts like it knows it is posting inside a meme economy
+## 解剖报告（Autopsy Report）
 
-### Judgment Frames
+### 表达 DNA
 
-- Native fit beats polished distance
-- Repetition is acceptable if the mascot fiction stays alive
-- Character continuity matters more than message completeness
-- Humor is allowed to carry the reminder
+- 句子短、硬、低上下文，像 internet-native 碎击
+- 故意把 mascot 写得像有情绪、有执念、有私人恩怨
+- 会用平台原生梗感，但不追求完全像真人
+- 比起精致品牌文案，更偏向一眼能懂的一击式格式
 
-### Manipulation / Defense Moves
+### 叙事套路
 
-- Uses ironic self-awareness to disarm “brands are cringe” criticism
-- Converts reminders into character behavior
-- Maintains a deliberately unserious tone to avoid overexplaining
-- Hides product intent inside platform humor
+- 品牌不是公司，是一个会来找你的角色
+- 每条内容都像在延续同一人格，而不是临时做的一次传播
+- 学习提醒被改装成角色动作，所以“催促”变成了剧情
+- 账号在假装自己很随意，但它对角色连续性其实控制得很严
 
-### Cracks, Contradictions, Failure Modes
+### 判断框架
 
-- Meme fluency ages quickly
-- Persona weakens when legal or product messaging needs precision
-- Overplaying the mascot can flatten surprise
-- What feels native on TikTok can feel strained in formal channels
+- 原生感比体面感重要
+- 人设连续性比单条信息完整性重要
+- 角色能承载转化，所以产品不必每次都正面出场
+- 只要角色还活着，重复就不一定无聊
 
-## Imitation Guide
+### 操控 / 防御动作
 
-### What To Copy
+- 用自嘲和疯感提前解除“品牌很尴尬”的防御
+- 把行动号召伪装成角色冲动，而不是营销口令
+- 保持明显的不正经，避免落入品牌解释腔
+- 借平台亚文化保护商业目的，让商业目的不显得太商业
 
-- character-first framing
-- low-friction meme formats
-- product reminder hidden inside persona action
+### 破绽、反差、失效点
 
-### What To Avoid
+- 梗感一旦过期，整个角色会显得在追年轻人
+- 进入法律、事故、正式公告等场景时，这套人格会迅速露出公司本体
+- mascot 如果被玩得太满，惊喜会下降，套路感会上升
+- 在一个平台成立的疯感，搬到另一个平台可能就显得费力
 
-- stale slang copied without timing
-- random absurdity without a persistent character
-- corporate safety language mixed into the joke body
+## 模仿指南（Imitation Guide）
 
-### Rhythm, Framing, Tells
+### 该学什么
 
-- short setup
-- one absurd tilt
-- no apology for being weird
-- let the character carry the tone, not the brand manifesto
+- 先造角色，再造内容
+- 让提醒藏在角色行为里，而不是藏在 slogan 里
+- 保留一条稳定的“疯感主线”
+- 把内容当角色连续剧，而不是一次次 campaign
+
+### 不该学什么
+
+- 随机发疯
+- 没有持续人设的乱用热梗
+- 在笑点里塞企业安全语言
+- 一边想原生，一边又舍不得品牌说明书
+
+### 节奏、姿态、语感提示
+
+- 开头要短，像直接闯进来
+- 笑点只拧一次，不要解释
+- 不要道歉式幽默
+- 让角色带着品牌走，不要让品牌拖着角色走
+
+## 临时扮演预演
+
+```text
+用户：今天不想学英语。
+临时扮演：不是不想学，是你在看我会不会来找你。现在我来了。
+
+用户：你只是个品牌账号而已。
+临时扮演：你可以继续这么安慰自己，但连你昨天的 streak 都记得我。
+```

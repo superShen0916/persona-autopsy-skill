@@ -1,139 +1,248 @@
 <div align="center">
 
-# persona-autopsy-skill
+# 人格解剖刀
+### persona-autopsy-skill
 
-> *“有些人格不是为了被复活，而是为了被解剖。”*
+> *“不造人，不招魂，只开刀。”*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-F2C94C.svg)](LICENSE)
 [![skills.sh Compatible](https://img.shields.io/badge/skills.sh-Compatible-2F855A.svg)](https://skills.sh)
-[![Mode: Autopsy](https://img.shields.io/badge/Mode-Autopsy-111111.svg)](#它做什么)
-[![Output: Imitation Guide](https://img.shields.io/badge/Output-Imitation%20Guide-8C2F39.svg)](#它做什么)
+[![输出：解剖报告](https://img.shields.io/badge/%E8%BE%93%E5%87%BA-%E8%A7%A3%E5%89%96%E6%8A%A5%E5%91%8A-111111.svg)](#你会拿到什么)
+[![模式：沉浸对话](https://img.shields.io/badge/%E6%A8%A1%E5%BC%8F-%E6%B2%89%E6%B5%B8%E5%AF%B9%E8%AF%9D-8C2F39.svg)](#你会拿到什么)
 
-**人格解剖刀，不是人格生成器。**
-
-`persona-autopsy-skill` 不负责把一个人“做成新的 skill”。  
-它负责把一套人格表演拆开，露出里面的齿轮：
-**表达 DNA、叙事套路、判断框架、操控 / 防御动作、破绽与翻车点。**
-
-给我公开材料，或你主动提供的半公开聊天片段。  
-我给你一份结构化 `Autopsy Report`、一份可直接使用的 `Imitation Guide`，以及一次可选的 **Immersive Dialogue Mode**。
-
-[效果预览](#效果预览) · [它做什么](#它做什么) · [为什么不是-nuwa](#为什么不是-nuwa) · [安装](#安装) · [边界](#边界) · [Examples](#examples)
+[英文版](./README_EN.md)
 
 </div>
 
+**你看到的是人设，我看到的是结构。**
+
+`persona-autopsy-skill` 用来拆开一个公众人物、品牌账号、创作者账号，或聊天人格为什么“像他自己”。
+
+不是夸他有魅力。  
+不是骂他会表演。  
+而是把那套稳定生效的东西拆出来看：
+
+- 他靠什么抓注意力
+- 他怎么设定敌我
+- 他什么时候装软，什么时候施压
+- 他怎样把事实争议改写成自己更擅长的战场
+- 他最有杀伤力的部分是什么
+- 他最容易露馅的部分又是什么
+
+你给我材料，我给你三样东西：
+
+- `Autopsy Report（解剖报告）`
+  - 这套人格是怎么运作的
+- `Imitation Guide（模仿指南）`
+  - 哪些能学，哪些别学，一学就假
+- `Immersive Dialogue Mode（沉浸对话模式）`
+  - 分析完成后，可选一次临时扮演
+
+[它能拆什么](#它能拆什么) · [你会拿到什么](#你会拿到什么) · [效果示例](#效果示例) · [安装](#安装) · [边界](#边界) · [仓库结构](#仓库结构)
+
 ---
 
-## 你给什么，我给什么
+## 它能拆什么
 
-| 你提供什么 | 我会拆出什么 |
-| --- | --- |
-| 公众人物的采访、演讲、播客、社媒表达 | 说话节奏、判断逻辑、施压方式、破绽 |
-| 品牌 / 官号 / 创作者账号的公开发言 | 平台腔调、角色设定、公关防守动作 |
-| 你主动提供的聊天记录、截图、群聊片段 | 互动节奏、控制手法、表面姿态和真实施力点 |
+| 对象 | 常见材料 | 最终会拆出的东西 |
+| --- | --- | --- |
+| 公众人物 | 采访、演讲、辩论、播客、社媒发言 | 气势结构、叙事主轴、攻防动作、露馅点 |
+| 品牌 / 官号 / 创作者账号 | 帖子、评论、短视频文案、回复风格 | 平台腔调、角色设定、包袱、转化动作 |
+| 你主动提供的聊天人格 | 聊天记录、截图、群聊片段、语音转录 | 控场习惯、缓冲词、压人方式、关系姿态 |
 
-材料足够，就做完整解剖。材料太少，就只做“弱拆解”，不硬编。
+材料足够，就做完整解剖。  
+材料不够，就做“弱拆解”，不装作自己已经看穿了一切。
 
-## 效果预览
+## 你会拿到什么
 
-这不是语录拼贴。下面这些例子展示的是，它会把“像不像”拆成可操作的结构。
+### 1. `Autopsy Report（解剖报告）`
 
-### 公众人物
+它不是“这个人很自信 / 很会说话”这种空形容词。
 
-目标：Donald Trump
+它会把人格拆成可复用的结构：
+
+- `Expression DNA`
+  - 这人一开口，句子是怎么站起来的
+- `Narrative Routines`
+  - 他喜欢把事情讲成什么故事
+- `Judgment Frames`
+  - 他默认按什么标准做判断
+- `Manipulation / Defense Moves`
+  - 他怎么反击、怎么防守、怎么推卸、怎么控场
+- `Cracks, Contradictions, Failure Modes`
+  - 他在哪些场景里会突然失效、变假、翻车
+
+### 2. `Imitation Guide（模仿指南）`
+
+不是“模仿他的口头禅”，而是告诉你：
+
+- 该学哪一层
+- 不该碰哪一层
+- 句子应该怎么起手
+- 情绪应该热到什么程度
+- 什么动作一做就从“像”变成“廉价模仿”
+
+### 3. `Immersive Dialogue Mode（沉浸对话模式）`
+
+如果你明确要求，可以在分析完成后进入一次临时扮演：
+
+- 只做临时扮演
+- 不导出 skill
+- 不保存为人格资产
+- 不声称“已经复活了一个人”
+
+## 效果示例
+
+下面这些例子不是在卖“模仿得像”。  
+它们在展示这把刀到底能切到哪里。
+
+### 例子一：把事实问题打成气势问题的人
+
+目标：Donald Trump（特朗普）
+
+你可能会问：
+
+- “为什么他明明在回应质疑，现场却总像是他在进攻？”
+- “为什么他很多句子并不精细，却总能抢到主导权？”
+
+解剖结果会长这样：
 
 ```markdown
-### Judgment Frames
-- Attention is leverage
-- Visible strength matters more than procedural neatness
-- Public humiliation changes the bargaining table
+## 解剖报告（Autopsy Report）
 
-### What To Copy
-- short verdict-first sentences
-- public anchoring
-- escalation before concession
+### 表达 DNA
+- 先给判词，再给理由；语气先抢位置，内容后补
+- 用极简单的褒贬词高频重复，重复到像裁决
+- 很少把自己放进解释者位置，更像在做公开宣判
+
+### 操控 / 防御动作
+- 不先处理事实争议，先处理谁有资格质疑
+- 把问题从“对不对”改写成“谁更强、谁更敢”
+- 用公开命名制造敌我阵营，让标签替他工作
+
+## 模仿指南（Imitation Guide）
+
+### 该学什么
+- 先立场，后细节
+- 让每句话都像在推进场面，而不是补充信息
+- 反击时优先打框架，不优先打数据
+
+### 不该学什么
+- 生抄具体 insult 或口头禅
+- 只学音量，不学 framing
+- 没有叙事主线时硬装强势
+```
+
+临时扮演预演：
+
+```text
+用户：为什么我要先把价格开那么高？
+临时扮演：因为你不是来求一个结果的，你是来定义整张桌子的。你一上来就低，你已经把桌子送出去了。
 ```
 
 完整示例见 [`examples/public-figure-autopsy.md`](./examples/public-figure-autopsy.md)。
 
-### 品牌账号
+### 例子二：把催促包装成笑点的品牌账号
 
-目标：Duolingo social account
+目标：Duolingo 社媒账号
+
+你可能会问：
+
+- “为什么这个账号明明一直在催人学习，却不让人烦？”
+- “为什么它看上去像发疯，实际上却很稳定地在推动转化？”
+
+解剖结果会长这样：
 
 ```markdown
-### Narrative Routines
-- Brand becomes a chaotic character, not a company
-- Every post implies the mascot is watching, wanting, or threatening
+## 解剖报告（Autopsy Report）
 
-### What To Avoid
-- stale slang copied without timing
-- corporate safety language mixed into the joke body
+### 叙事套路
+- 品牌不再是品牌，而是一个随时会闯进你生活的角色
+- 每条内容都像在延续同一个宇宙，而不是孤立发帖
+- 真正的产品提醒被藏在角色行为里，而不是直接喊口号
+
+### 破绽与失效点
+- 梗感老了，整套人格会瞬间显得在学年轻人
+- 一旦进入严肃公告场景，这套角色就会露出品牌本体
+
+## 模仿指南（Imitation Guide）
+
+### 该学什么
+- 先立角色，再立内容
+- 让提醒变成角色动作，而不是营销动作
+- 保持一条稳定的“疯感主线”
+
+### 不该学什么
+- 随机发疯
+- 没有人设连续性的胡乱玩梗
+- 在笑点里塞进企业安全语言
+```
+
+临时扮演预演：
+
+```text
+用户：今天不想学英语。
+临时扮演：不是不想学，是你在看我会不会来找你。现在我来了。
 ```
 
 完整示例见 [`examples/brand-account-autopsy.md`](./examples/brand-account-autopsy.md)。
 
-### 半公开聊天人格
+### 例子三：一边降温，一边把所有人带到自己路线上的群聊操盘手
 
 目标：合成的“群聊运营负责人”
 
-```markdown
-### Judgment Frames
-- Group chat is not the place for full truth
-- The safest move is often delay plus framing
+你可能会问：
 
-### Rhythm, Framing, Tells
-- start with a brake
-- replace debate with sequence
-- speak like you are stabilizing the room
+- “为什么这个人每次语气都很柔和，但最后总是按他的意思走？”
+- “为什么他从来不在群里硬刚，却总能把锅和节奏重新分配？”
+
+解剖结果会长这样：
+
+```markdown
+## 解剖报告（Autopsy Report）
+
+### 判断框架
+- 群里最重要的不是真相，而是先把场面稳住
+- 责任归属不是第一步，先定顺序才是第一步
+- 能私下解决的冲突，不要在公开场域把话说满
+
+### 操控 / 防御动作
+- 在群里降温，在私聊里收权
+- 用“先别急”“已同步处理”这种缓冲词压住局面
+- 把解释延后，把路径安排提前
+
+## 模仿指南（Imitation Guide）
+
+### 该学什么
+- 用顺序感代替争辩感
+- 先给队伍一个能执行的动作
+- 表面柔和，实际强控
+
+### 不该学什么
+- 空话控场
+- 只有态度，没有下一步
+- 把政治性伪装成中性流程
+```
+
+临时扮演预演：
+
+```text
+用户：群里有人开始追责，要不要现在解释清楚？
+临时扮演：先别在群里展开，留一句“已同步定位原因”。解释是下一步，控场是第一步。
 ```
 
 完整示例见 [`examples/synthetic-chat-autopsy.md`](./examples/synthetic-chat-autopsy.md)。
 
-## 它做什么
-
-- 输出 `Autopsy Report`
-  - 口头禅与表达 DNA
-  - 叙事套路
-  - 判断框架
-  - 操控 / 防御动作
-  - 破绽、反差、翻车点
-- 输出 `Imitation Guide`
-  - 可学的部分
-  - 不该学的部分
-  - 语言节奏、叙事姿态和禁忌
-- 在分析完成后，支持一次 **Immersive Dialogue Mode**
-  - 只做临时扮演
-  - 不导出 skill
-  - 不保存为人格资产
-
 ## 它明确不做什么
 
 - 不生成新的 `SKILL.md`
-- 不做 `Nuwa` 那种“输入人名 -> 造一个新 skill”
-- 不在仓库中沉淀大规模原始私密语料
-- 不在证据不足时硬编一个完整人格
+- 不永久封装一个可复用的人格资产
+- 不在证据不足时脑补“完整人格”
+- 不替用户保存大体量私密原始语料
 
-## 为什么不是 Nuwa
+一句话：**不造人，不招魂，只做解剖。**
 
-| 维度 | `Nuwa` | `Persona Autopsy` |
-| --- | --- | --- |
-| 核心问题 | “怎么把这个人做成一个 skill？” | “这套人格到底是怎么运作的？” |
-| 终点 | 生成新的可复用 skill | 输出拆解报告、模仿指南、一次临时扮演 |
-| 对象处理 | 往“蒸馏成体系”走 | 往“拆开看 machinery”走 |
-| 证据不足时 | 倾向继续补资料 | 直接降级为弱拆解，不强下结论 |
-
-一句话说清楚：
-
-- **Nuwa 是人格蒸馏器**
-- **Persona Autopsy 是人格解剖刀**
-
-## 适合拿来拆什么
-
-- 公众人物
-- 品牌 / 官方账号 / 创作者账号
-- 用户主动提供的聊天记录、截图、群聊片段
-
-默认触发词：
+## 默认触发词
 
 - “拆一下这个人设”
 - “分析这个账号怎么说话”
@@ -141,11 +250,11 @@
 - “给我这个人格的模仿指南”
 - “让我和这个人设对话”
 
-## 固定流程
+## 默认流程
 
 1. 识别对象类型
 2. 判断来源类型与可信度
-3. 输出结构化 `Autopsy Report`
+3. 输出 `Autopsy Report`
 4. 输出 `Imitation Guide`
 5. 如果你明确要求，进入 `Immersive Dialogue Mode`
 
@@ -154,23 +263,15 @@
 - 只分析公开材料，或用户主动提供的半公开材料
 - 不鼓励用户上传不受自己控制的私密数据
 - 不把公开人设等同于完整人格
-- 如果材料太少、风格冲突或来源太弱，只输出弱拆解
+- 材料太少、风格冲突或来源太弱时，只输出弱拆解
 - 高拟真扮演只在证据足够且用户明确要求时启用
-
-## Examples
-
-- [`examples/public-figure-autopsy.md`](./examples/public-figure-autopsy.md)
-  - 公众人物案例，展示如何拆出公开发言中的力量感、施压方式和露馅点
-- [`examples/brand-account-autopsy.md`](./examples/brand-account-autopsy.md)
-  - 品牌账号案例，展示平台腔调、角色设定和“装得像原生用户”的做法
-- [`examples/synthetic-chat-autopsy.md`](./examples/synthetic-chat-autopsy.md)
-  - 匿名 / 合成半公开案例，展示聊天人格的微操、缓冲词和控场姿态
 
 ## 仓库结构
 
 ```text
 persona-autopsy-skill/
 ├── README.md
+├── README_EN.md
 ├── SKILL.md
 ├── LICENSE
 ├── agents/
@@ -194,7 +295,3 @@ npx skills add superShen0916/persona-autopsy-skill
 ```
 
 如果你已经把仓库 clone 到本地，也可以直接把整个目录放进支持 skills 的工具目录里使用。
-
-## English
-
-`persona-autopsy-skill` is a cold, structured persona analysis skill. It exposes how a persona performs, persuades, defends, and cracks under pressure. It does **not** generate a new reusable persona skill. Instead, it produces an autopsy report, an imitation guide, and an optional temporary immersive dialogue mode.

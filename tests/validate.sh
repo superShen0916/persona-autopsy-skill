@@ -4,6 +4,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 required_files=(
   "$ROOT/README.md"
+  "$ROOT/README_EN.md"
   "$ROOT/SKILL.md"
   "$ROOT/agents/openai.yaml"
   "$ROOT/references/extraction-framework.md"
@@ -24,8 +25,13 @@ done
 ! rg -n "TODO|TBD|\\[TODO:" "$ROOT/README.md" "$ROOT/SKILL.md" "$ROOT/references" >/dev/null
 
 grep -q "人格解剖刀" "$ROOT/README.md"
-grep -q "Nuwa" "$ROOT/README.md"
+grep -q "README_EN.md" "$ROOT/README.md"
+grep -q "不造人，不招魂，只开刀" "$ROOT/README.md"
 grep -q "不生成新的 \`SKILL.md\`" "$ROOT/README.md"
+! rg -n "Nuwa|Nvwa|女娲" "$ROOT/README.md" >/dev/null
+
+grep -q "Persona Autopsy" "$ROOT/README_EN.md"
+grep -q "README.md" "$ROOT/README_EN.md"
 
 grep -q "拆一下这个人设" "$ROOT/SKILL.md"
 grep -q "让我和这个人设对话" "$ROOT/SKILL.md"
@@ -35,3 +41,10 @@ grep -q "^---$" "$ROOT/SKILL.md"
 grep -q "^name: persona-autopsy-skill$" "$ROOT/SKILL.md"
 grep -q "^description: " "$ROOT/SKILL.md"
 grep -q "^license: MIT$" "$ROOT/SKILL.md"
+
+grep -q "解剖报告" "$ROOT/examples/public-figure-autopsy.md"
+grep -q "临时扮演预演" "$ROOT/examples/public-figure-autopsy.md"
+grep -q "解剖报告" "$ROOT/examples/brand-account-autopsy.md"
+grep -q "临时扮演预演" "$ROOT/examples/brand-account-autopsy.md"
+grep -q "解剖报告" "$ROOT/examples/synthetic-chat-autopsy.md"
+grep -q "临时扮演预演" "$ROOT/examples/synthetic-chat-autopsy.md"

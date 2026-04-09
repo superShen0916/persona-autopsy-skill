@@ -1,70 +1,92 @@
-# Public Figure Example
+# 公众人物案例：特朗普
 
-## Target
+## 场景问题
 
-Donald Trump, using public speeches, debate clips, interviews, and long-form media appearances.
+为什么有的人一被质疑，现场反而更像是他在占上风？
 
-## Autopsy Report
+## 目标
 
-### Expression DNA
+Donald Trump。材料范围为公开演讲、辩论、采访、长视频发言与高传播度公开片段。
 
-- Prefers short, high-certainty sentence bursts
-- Repeats simple adjectives until they feel like verdicts
-- Uses public naming as a weapon: praise labels, insult labels, loyalty labels
-- Speaks as if scale itself proves truth
+## 观察入口
 
-### Narrative Routines
+- 常常先下判词，再补理由
+- 喜欢把对手缩成一个好记的标签
+- 很少在“解释自己”这个位置待太久
+- 更擅长把场面做大，而不是把细节讲细
 
-- Casts politics as a visible contest with winners and losers
-- Turns criticism into proof of threat and relevance
-- Reframes negotiation as dominance theater rather than quiet settlement
-- Makes the audience feel they are watching raw instinct beat elite process
+## 解剖报告（Autopsy Report）
 
-### Judgment Frames
+### 表达 DNA
 
-- Attention is leverage
-- Anchoring high is better than appearing reasonable too early
-- Visible strength matters more than procedural neatness
-- Public humiliation changes the bargaining table
+- 喜欢短句连发，先把气势打出去
+- 高频重复简单形容词，让判断像已经盖棺
+- 句子不是拿来展开逻辑，而是拿来占位置
+- 把“我觉得”说成“大家都看得出来”
 
-### Manipulation / Defense Moves
+### 叙事套路
 
-- Counterattack before explanation
-- Rename the opponent so the label does the work
-- Inflate the opening position to drag the frame upward
-- Treat factual challenge as status warfare
+- 把政治和谈判都讲成赢家与输家的公开赛场
+- 把来自媒体、机构或对手的攻击改写成“他们怕我”
+- 把复杂问题压缩成极少数强烈判断，牺牲细腻，换取记忆度
+- 让观众感觉自己看到的是“原始直觉打败精英程序”
 
-### Cracks, Contradictions, Failure Modes
+### 判断框架
 
-- Overuse of certainty can make later reversals look tactical at best, unserious at worst
-- The style weakens when the audience values procedural trust over spectacle
-- “Winning” rhetoric often requires retroactive redefinition of outcomes
-- Repetition is powerful, but saturation makes the machinery visible
+- 注意力就是筹码
+- 先把锚点抬高，总比一开始就显得讲道理更有利
+- 公开的强势比程序上的工整更重要
+- 谁能定义场面，谁就先赢一半
 
-## Imitation Guide
+### 操控 / 防御动作
 
-### What To Copy
+- 先反击质疑者，再处理质疑内容
+- 用公开命名制造敌我关系，让标签代替解释
+- 把事实争议改写成地位争议
+- 故意把开价、开场、开火都拉得很高，逼对方在他设定的桌子上谈
 
-- short verdict-first sentences
-- public anchoring
-- enemy construction through naming
-- escalation before concession
+### 破绽、反差、失效点
 
-### What To Avoid
+- 过高频的确定感，会让后续反转显得像战术性改口
+- 一旦观众更在意可信流程而不是气势展示，这套打法会掉电很快
+- 当“赢”的定义不断变化时，叙事会开始露出自我重写的痕迹
+- 强势一旦没有新框架支撑，就会从压迫感变成噪音
 
-- copy-pasting signature insults
-- imitating platform-specific political provocation without context
-- relying on volume alone without a clear narrative spine
+## 模仿指南（Imitation Guide）
 
-### Rhythm, Framing, Tells
+### 该学什么
 
-- open with a verdict
-- keep the emotional temperature hot
-- repeat the key noun or adjective
-- sound as if hesitation belongs to weaker people
+- 先立场，后细节
+- 先抢 frame，再补信息
+- 反击时优先打对方的资格、位置和节奏
+- 保持高可记忆度，不追求句句精密
 
-## Confidence Notes
+### 不该学什么
 
-- strong signals: public speaking rhythm, naming tactics, dominance framing
-- weak signals: any claim about private motives beyond repeated public behavior
-- missing evidence: closed-door decision process not reflected in public record
+- 生抄具体 insult、外号或平台化挑衅动作
+- 只学音量，不学结构
+- 没有稳定叙事主轴时硬装高位裁决
+- 把不负责任的夸张误当成可复制的“魅力”
+
+### 节奏、姿态、语感提示
+
+- 开场就像在宣判，不像在请示
+- 让每句话都在推进场面，而不是补充背景
+- 重复关键名词或形容词，让它长成标签
+- 犹豫会削弱整个人设，停顿只能用来蓄力，不能用来退缩
+
+## 临时扮演预演
+
+```text
+用户：为什么我要先把价格开那么高？
+临时扮演：因为你不是来求一个结果的，你是来定义整张桌子的。你一上来就低，你已经输了第一轮。
+
+用户：他们都说我太夸张了。
+临时扮演：他们当然这么说。因为一旦你按他们的方式说话，他们就赢了。你不是来让他们舒服的。
+```
+
+## 置信度说明
+
+- 强信号：公开发言节奏、命名打法、气势优先于程序的 framing
+- 弱信号：任何超出公开材料的私人动机推断
+- 缺失证据：不在公开场域暴露的闭门决策细节

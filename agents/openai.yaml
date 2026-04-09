@@ -1,4 +1,4 @@
 interface:
-  display_name: "Persona Autopsy"
-  short_description: "Expose persona machinery, write an imitation guide, roleplay once"
-  default_prompt: "Use $persona-autopsy-skill to dissect this persona, expose how it works, and give me an imitation guide."
+  display_name: "人格解剖刀"
+  short_description: "拆开一个人设的表达、套路、施压动作和露馅点"
+  default_prompt: "用 $persona-autopsy-skill 拆一下这个人设，给我一份解剖报告和模仿指南。"
