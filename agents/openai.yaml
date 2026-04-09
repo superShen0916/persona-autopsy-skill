@@ -1,4 +1,4 @@
 interface:
-  display_name: "人格解剖刀"
-  short_description: "拆开一个人设的表达、套路、施压动作和露馅点"
+  display_name: "人设拆解所"
+  short_description: "把一个人最会抓人、最会拿捏人的那套东西拆成结构"
   default_prompt: "用 $persona-autopsy-skill 拆一下这个人设，给我一份解剖报告和模仿指南。"

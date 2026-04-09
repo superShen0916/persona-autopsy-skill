@@ -1,18 +1,19 @@
 # Persona Autopsy
 
-> *Don't resurrect the persona. Cut it open.*
+> *Not “does it sound like them?” but “why does it make people buy in?”*
 
-`persona-autopsy-skill` dissects why a public figure, brand account, creator voice, or chat persona feels recognizably like itself.
+`persona-autopsy-skill` is built to expose the part of a voice that actually works:
 
-It does not manufacture a new reusable persona package.  
-It breaks the machinery open:
+- what grabs attention
+- what creates memory
+- what gets people to buy in, forward it, fear it, or quote it
+- what looks like “just style” but is actually framing, leverage, or timing
 
-- how the voice grabs attention
-- how it frames enemies and allies
-- how it applies pressure or buys time
-- how it turns factual disputes into more favorable battlegrounds
-- where it feels powerful
-- where it starts to crack
+If you only remember three lines from this repo, remember these:
+
+- `145% is not a number. It's an opening bid.`
+- `Durex is not selling condoms. It's selling the second where saying it stops being awkward.`
+- `“No family money? Stay away from finance” is not cruelty. It's a filter.`
 
 What you get:
 
@@ -34,11 +35,11 @@ This repository is Chinese-first. See the full Chinese version in [README.md](./
 ## Examples
 
 - [Public figure example](./examples/public-figure-autopsy.md)
-  - shows how a dominance-driven public persona turns fact disputes into status disputes
+  - Trump as deal logic, extreme anchoring, and public victory theater
 - [Brand account example](./examples/brand-account-autopsy.md)
-  - shows how a meme-native brand hides product reminders inside character behavior
-- [Synthetic semi-public example](./examples/synthetic-chat-autopsy.md)
-  - shows how a soft-spoken operator stabilizes a room while quietly taking control
+  - Durex as timing, innuendo, and making intimacy feel socially fluent
+- [Creator example](./examples/creator-autopsy.md)
+  - Zhang Xuefeng as harsh realism, family ROI logic, and anti-fantasy filtering
 
 ## Hard Boundaries
 
