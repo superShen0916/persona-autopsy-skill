@@ -1,4 +1,4 @@
 interface:
   display_name: "人设拆解所"
-  short_description: "把一个人最会抓人、最会拿捏人的那套东西拆成结构"
+  short_description: "拆穿一句话背后的钩子、价码和杀伤力"
   default_prompt: "用 $persona-autopsy-skill 拆一下这个人设，给我一份解剖报告和模仿指南。"

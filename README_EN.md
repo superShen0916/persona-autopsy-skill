@@ -1,19 +1,21 @@
 # Persona Autopsy
 
-> *Not “does it sound like them?” but “why does it make people buy in?”*
+> *Not what they said. How they hooked you.*
 
-`persona-autopsy-skill` is built to expose the part of a voice that actually works:
+`persona-autopsy-skill` is built to expose three things inside a voice:
 
-- what grabs attention
-- what creates memory
-- what gets people to buy in, forward it, fear it, or quote it
-- what looks like “just style” but is actually framing, leverage, or timing
+- the hook
+- the price
+- the damage
 
 If you only remember three lines from this repo, remember these:
 
 - `145% is not a number. It's an opening bid.`
 - `Durex is not selling condoms. It's selling the second where saying it stops being awkward.`
 - `“No family money? Stay away from finance” is not cruelty. It's a filter.`
+
+Give it a public figure, brand, creator, or chat persona.  
+It extracts the part that actually moves people.
 
 What you get:
 

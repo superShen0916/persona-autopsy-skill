@@ -26,6 +26,8 @@ done
 
 grep -q "persona-autopsy-skill" "$ROOT/README.md"
 grep -q "README_EN.md" "$ROOT/README.md"
+grep -q "专拆人设最值钱的那一招" "$ROOT/README.md"
+grep -q "不是看他说了什么，是看他怎么让别人上钩" "$ROOT/README.md"
 grep -q "145%不是数字，是开价" "$ROOT/README.md"
 grep -q "杜蕾斯卖的不是套" "$ROOT/README.md"
 grep -q "家里没矿别碰金融" "$ROOT/README.md"
@@ -34,6 +36,7 @@ grep -q "不生成新的 \`SKILL.md\`" "$ROOT/README.md"
 
 grep -q "Persona Autopsy" "$ROOT/README_EN.md"
 grep -q "README.md" "$ROOT/README_EN.md"
+grep -q "How they hooked you" "$ROOT/README_EN.md"
 grep -q "Durex" "$ROOT/README_EN.md"
 grep -q "Zhang Xuefeng" "$ROOT/README_EN.md"
 
