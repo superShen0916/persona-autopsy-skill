@@ -1,12 +1,15 @@
 <div align="center">
 
 # persona-autopsy-skill
+
 ### 把语言怎样长成场面、价格、权力、欲望和成交拆开看
 
-> *“拆的不是谁像谁。拆的是一句话怎样长出场面、价格、权力、欲望和成交。”*
+> _“拆的不是谁像谁。拆的是一句话怎样长出场面、价格、权力、欲望和成交。”_
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-F2C94C.svg)](LICENSE)
 [![skills.sh Compatible](https://img.shields.io/badge/skills.sh-Compatible-2F855A.svg)](https://skills.sh)
+[![LLM-powered](https://img.shields.io/badge/LLM-Powered-blueviolet.svg)](#)
+[![Agentic development](https://img.shields.io/badge/Agentic-Claude%20Code-purple.svg)](#)
 [![输出：解剖报告](https://img.shields.io/badge/%E8%BE%93%E5%87%BA-%E8%A7%A3%E5%89%96%E6%8A%A5%E5%91%8A-111111.svg)](#你会拿到什么)
 [![输出：模仿指南](https://img.shields.io/badge/%E8%BE%93%E5%87%BA-%E6%A8%A1%E4%BB%BF%E6%8C%87%E5%8D%97-8C2F39.svg)](#你会拿到什么)
 [![模式：沉浸对话](https://img.shields.io/badge/%E6%A8%A1%E5%BC%8F-%E6%B2%89%E6%B5%B8%E5%AF%B9%E8%AF%9D-1F4B99.svg)](#你会拿到什么)
@@ -55,19 +58,19 @@
 
 它不只拆“表达风格”，它拆的是**表达背后的权力结构**。
 
-| 层 | 它真正想问的问题 | 最终会被拆成什么 |
-| --- | --- | --- |
-| `Hook Surface` | 为什么他一开口你就知道“这是谁” | 起手句型、数字/标签/双关、记忆钉子 |
-| `Entry Stance` | 他是怎么进场的 | 裁判、老板、内行人、过来人、坏笑旁观者 |
-| `Scene Control` | 他怎么让全场按他的框架讨论 | 抢定义权、改问题、拖别人到自己的桌子上 |
-| `Narrative Engines` | 他总把事情讲成什么故事 | 赢家/输家、救赎、复仇、体面、现实、欲望 |
-| `Judgment / Trade Logic` | 他到底在拿什么衡量世界 | 钱、地位、效率、忠诚、阶层、情绪、面子 |
-| `Audience Split` | 他对不同人其实在说什么 | 对粉丝、路人、媒体、对手、平台的分层话术 |
-| `Emotion Thermostat` | 他怎么调现场温度 | 煽动、安抚、暧昧、羞耻、 urgency、优越感 |
-| `Pressure / Conversion Moves` | 他怎么让人转发、服气、下单、跟随 | 锚点、损失厌恶、身份诱导、共识伪造、关系缓冲 |
-| `Defense / Exit Moves` | 他失手时怎么退 | 改定义、换战场、甩锅、装轻描淡写、拿小胜当大胜 |
-| `Weapon Library` | 他最常用的武器是什么 | 高爆词、半句留白、标签命名、狠话开场、伪共识句 |
-| `Cracks / Failure Modes` | 这套东西什么时候会突然失灵 | 过度表演、平台错位、证据不足、 audience 反噬 |
+| 层                            | 它真正想问的问题                 | 最终会被拆成什么                               |
+| ----------------------------- | -------------------------------- | ---------------------------------------------- |
+| `Hook Surface`                | 为什么他一开口你就知道“这是谁”   | 起手句型、数字/标签/双关、记忆钉子             |
+| `Entry Stance`                | 他是怎么进场的                   | 裁判、老板、内行人、过来人、坏笑旁观者         |
+| `Scene Control`               | 他怎么让全场按他的框架讨论       | 抢定义权、改问题、拖别人到自己的桌子上         |
+| `Narrative Engines`           | 他总把事情讲成什么故事           | 赢家/输家、救赎、复仇、体面、现实、欲望        |
+| `Judgment / Trade Logic`      | 他到底在拿什么衡量世界           | 钱、地位、效率、忠诚、阶层、情绪、面子         |
+| `Audience Split`              | 他对不同人其实在说什么           | 对粉丝、路人、媒体、对手、平台的分层话术       |
+| `Emotion Thermostat`          | 他怎么调现场温度                 | 煽动、安抚、暧昧、羞耻、 urgency、优越感       |
+| `Pressure / Conversion Moves` | 他怎么让人转发、服气、下单、跟随 | 锚点、损失厌恶、身份诱导、共识伪造、关系缓冲   |
+| `Defense / Exit Moves`        | 他失手时怎么退                   | 改定义、换战场、甩锅、装轻描淡写、拿小胜当大胜 |
+| `Weapon Library`              | 他最常用的武器是什么             | 高爆词、半句留白、标签命名、狠话开场、伪共识句 |
+| `Cracks / Failure Modes`      | 这套东西什么时候会突然失灵       | 过度表演、平台错位、证据不足、 audience 反噬   |
 
 一句话总结：
 
